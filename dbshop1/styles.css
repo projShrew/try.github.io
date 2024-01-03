@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('amandine-bataille-NMkGQ23ttgY-unsplash.jpg') center/cover fixed no-repeat; /* Replace 'background.jpg' with your actual background image */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+}
+
+#featured-pets {
+    background: transparent; /* Make the background transparent */
+    padding: 50px 0;
+    position: relative;
+}
+
+.pet-card {
+    background: rgba(255, 255, 255, 0.9); /* Adjust the alpha for the inner rectangle */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+.pet-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.pet-card h3 {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#about-us {
+    background: rgba(255, 255, 255, 0.9); /* Keep the inner rectangle background color with some opacity */
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+            text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+/* Add this rule to clear floats */
+.clear {
+    clear: both;
+}
+/* Additional styles for the Adopt Now buttons */
+
+
+.adopt-button:hover {
+    background-color: #45a049;
+}
+
+#more-pets {
+    background: url('background.jpg') center/cover fixed no-repeat; /* Same background image as the body */
+    backdrop-filter: blur(10px); /* Adjust the blur amount */
+    padding: 50px 0;
+}
+
+/* Additional styles for the Adopt Now buttons */
+.adopt-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
